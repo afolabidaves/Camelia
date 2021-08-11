@@ -1,0 +1,118 @@
+@font-face {
+    font-family: dave;
+    src: url("Fonts/lato-thin-webfont.woff")format("woff"),
+    url("Fonts/lato-thin-webfont.woff2")format("woff2"),
+    url("fonts/Pacifico-Regular.ttf")format("truetype");
+}
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+font-family: dave;
+}
+
+h2{
+    font-family: dave;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 10%;
+
+}
+
+
+.ancestor{
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    border-top: 1px solid silver;
+
+}
+
+.parent{
+    margin-left: 20px;
+height: 700px;
+display: inline-block;
+}
+
+
+.box1{
+    width: 30%;
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 10px;
+
+}
+
+.box2{
+    width: 30%;
+    vertical-align: middle;
+    display: inline-block;
+    padding-left: 15px;
+
+    
+
+}
+
+.box3{
+    width: 33%;
+vertical-align: middle;
+display: inline-block;
+padding-left: 15px;
+
+}
+
+div{
+    height: 50%;
+}
+
+
+
+.icon{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(81, 156, 81);
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    margin-top: 13%;
+
+}
+p{
+    padding-left: 75px;
+    display: inline-block;
+    
+
+}
+
+button{
+    margin-top: 7%;
+    width: 15%;
+    padding: 0.8%;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.p1{
+    padding-bottom: 10%;
+    display: inline-block;
+}
+
+.us{
+    border-top: 3px solid orange;
+    width: 20%;
+    height: 1%;
+
+}
