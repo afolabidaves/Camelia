@@ -1,8 +1,8 @@
 @font-face {
     font-family: dave;
-    src: url("Fonts/lato-thin-webfont.woff")format("woff"),
-    url("Fonts/lato-thin-webfont.woff2")format("woff2"),
-    url("fonts/Pacifico-Regular.ttf")format("truetype");
+    src: url("../../vendor/fontawesome/fonts/lato-thin-webfont.woff")format("woff"),
+    url("../../vendor/fontawesome/fonts/lato-thin-webfont.woff2")format("woff2"),
+    url("../../vendor/fontawesome/fonts/Lato-Regular.ttf")format("truetype");
 }
 
 
@@ -27,7 +27,7 @@ h2{
 }
 
 
-.ancestor{
+.main_box{
     width: 100%;
     background-color: whitesmoke;
     margin-top: 10px;
@@ -35,7 +35,7 @@ h2{
 
 }
 
-.parent{
+.container{
     margin-left: 20px;
 height: 700px;
 display: inline-block;
